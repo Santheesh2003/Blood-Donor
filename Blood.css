@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+   height: 100vh;
+   width:100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: linear-gradient(to right,#a82828 , #2b19cf);
+   background-image: url(image2.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   
+}
+ form{
+   
+     width :20rem;
+     height: 25rem;
+     display: flex;
+     flex-direction: column;
+     background: rgba(187, 186, 186, 0.699);
+     box-shadow: 0 10px 32px 0 rgba(15, 15, 15, 0.37);
+     border-radius: 30px ;
+     border-left: 1px solid rgba(248, 247, 247, 0.3);
+     border-top: 1px solid rgba(255, 255, 255, 0.3);
+     
+ }
+ h3{
+   font-family:Copperplate, Papyrus, fantasy ;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(209, 3, 3);
+    text-shadow: 2px 2px 4px rgba(12, 12, 12, 0.2); 
+    letter-spacing: 3px;
+    margin-top: 7%;
+    margin-bottom: 5%;
+    border-bottom: 2px solid #000000;
+    /* opacity: .7; */
+ }
+ label{
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    margin-left: 10%;
+    /* opacity: .7; */
+    text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+ }
+ select{
+    width: 80%;
+    margin: 5% auto;
+    margin-bottom: 8%;
+    border-radius: 7px;
+    cursor: pointer;
+ }
+ button{
+    width: 25%;
+    margin: .5% auto;
+    font-weight: bold;
+    border-radius: 9px;
+    cursor: pointer;
+    color: rgb(240, 14, 14);
+ }
+ #Bg{
+    width: 72%;
+    margin-left: 33px;
+ }
+ option{
+   color: #030303;
+   
+ }
+ select{
+   color: #a82828;
+   text-align: center;
+ }
+ @media screen and (max-width:600px) {
+   body{
+      
+   }
+ }
